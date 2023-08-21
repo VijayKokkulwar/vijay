@@ -1,0 +1,15 @@
+<!-- res/menu/menu_main.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+    <item
+        android:id="@+id/action_sort_name"
+        android:title="Sort by Name" />
+    <item
+        android:id="@+id/action_sort_age"
+        android:title="Sort by Age" />
+    <item
+        android:id="@+id/action_sort_city"
+        android:title="Sort by City" />
+    </group>
+</menu>
